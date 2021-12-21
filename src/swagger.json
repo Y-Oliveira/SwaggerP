@@ -1,0 +1,66 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "API de exemplo :)",
+    "description": "Olá, créditos ao fabricio que consertou meu código e ajudou a fazer a documentação =D",
+    "version": "1.0.1"
+  },
+  "paths": {
+    "/products": {
+      "post": {
+        "summary": "Cadastro de Produtos",
+        "description": "Essa rota será asdjasodasjdioasjdioasj",
+        "tags": ["Products"]
+      }
+    },
+
+   "/Cats":{
+     "post": {
+       "summary": "Nome: Mingau",
+       "description":"8 aninhos, Carinhoso, dorminhoco",
+       "tags":["Testezinho"]
+      }
+   },
+
+   "/Dogs":{
+    "post":{
+      "summary": "Nome: Mika",
+      "description":"Brincalhona, carinhosa e curiosa ",
+      "tags":["Testezinho"]
+    }
+  }, 
+
+  "/Goose":{
+    "get":{
+      "summary": "Nome: Curiosa",
+      "description":"Super curiosa, ciumenta, carinhosa...(se vc tiver sorte) ",
+      "tags":["Testezinho"]
+    }
+  },
+
+  "/Bunny":{
+    "post":{
+      "summary": "Nome: Lilica",
+      "description":"Carinhosa, medrosa, bolinha de pelos fofinha ",
+      "tags":["Testezinho"]
+    }
+  },
+
+  "/Turtle":{
+    "get":{
+      "summary": "Nome: Igui",
+      "description":"Calmo, muito calmo, calmo mesmo, brincalhão de vez em quando ",
+      "tags":["Testezinho"]
+    }
+  },
+
+  "/Algo":{
+    "delete":{
+      "summary": "Deletar",
+      "description":"serve para deletar ",
+      "tags":["Deletar"]
+    }
+  }
+  }
+
+}
